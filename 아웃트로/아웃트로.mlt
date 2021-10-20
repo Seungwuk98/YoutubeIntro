@@ -1,0 +1,269 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.1.0" title="Shotcut version 21.09.20" producer="main_bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
+  <chain id="chain0" out="00:00:00.300">
+    <property name="length">00:00:00.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/038_뿅.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4bb8b91c361214c707ce5deef42878da</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">038_뿅.mp3</property>
+  </chain>
+  <chain id="chain1" out="00:00:02.483">
+    <property name="length">00:00:02.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/001_뽁.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">08194f0004f61af27377ff0e0e4737ea</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">001_뽁.wav</property>
+  </chain>
+  <chain id="chain2" out="00:00:02.183">
+    <property name="length">00:00:02.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/082_띵.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">57b180f00eabf4e4e97ae04c6ed42165</property>
+  </chain>
+  <chain id="chain3" out="00:00:04.933">
+    <property name="length">00:00:04.950</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/Videos/2021-10-20 16-26-51.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">336949d7fee4a55e1ec3be910c885c31</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">2021-10-20 16-26-51.mkv</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="main_bin" title="Shotcut version 21.09.20">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:00.300"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:02.483"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:00:02.183"/>
+    <entry producer="chain3" in="00:00:00.000" out="00:00:04.933"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:03.783">
+    <property name="length">00:00:03.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:03.783"/>
+  </playlist>
+  <chain id="chain4" out="00:00:04.933">
+    <property name="length">00:00:04.950</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/Videos/2021-10-20 16-26-51.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">336949d7fee4a55e1ec3be910c885c31</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">2021-10-20 16-26-51.mkv</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain4" in="00:00:00.983" out="00:00:04.767"/>
+  </playlist>
+  <chain id="chain5" out="00:00:00.300">
+    <property name="length">00:00:00.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/038_뿅.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4bb8b91c361214c707ce5deef42878da</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">038_뿅.mp3</property>
+  </chain>
+  <chain id="chain6" out="00:00:00.300">
+    <property name="length">00:00:00.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/038_뿅.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4bb8b91c361214c707ce5deef42878da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">038_뿅.mp3</property>
+  </chain>
+  <chain id="chain7" out="00:00:00.300">
+    <property name="length">00:00:00.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/038_뿅.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4bb8b91c361214c707ce5deef42878da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">038_뿅.mp3</property>
+  </chain>
+  <chain id="chain8" out="00:00:00.300">
+    <property name="length">00:00:00.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/038_뿅.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4bb8b91c361214c707ce5deef42878da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">038_뿅.mp3</property>
+  </chain>
+  <chain id="chain9" out="00:00:00.300">
+    <property name="length">00:00:00.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/038_뿅.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4bb8b91c361214c707ce5deef42878da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">038_뿅.mp3</property>
+  </chain>
+  <chain id="chain10" out="00:00:00.300">
+    <property name="length">00:00:00.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/038_뿅.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4bb8b91c361214c707ce5deef42878da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">038_뿅.mp3</property>
+  </chain>
+  <chain id="chain11" out="00:00:00.300">
+    <property name="length">00:00:00.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/038_뿅.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4bb8b91c361214c707ce5deef42878da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">038_뿅.mp3</property>
+  </chain>
+  <chain id="chain12" out="00:00:00.300">
+    <property name="length">00:00:00.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/038_뿅.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4bb8b91c361214c707ce5deef42878da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">038_뿅.mp3</property>
+  </chain>
+  <chain id="chain13" out="00:00:02.183">
+    <property name="length">00:00:02.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/seung/OneDrive/바탕 화면/youtube intro/082_띵.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">57b180f00eabf4e4e97ae04c6ed42165</property>
+    <property name="shotcut:caption">082_띵.mp3</property>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:00.500"/>
+    <entry producer="chain5" in="00:00:00.017" out="00:00:00.133"/>
+    <entry producer="chain6" in="00:00:00.017" out="00:00:00.133"/>
+    <entry producer="chain7" in="00:00:00.017" out="00:00:00.133"/>
+    <entry producer="chain8" in="00:00:00.017" out="00:00:00.133"/>
+    <entry producer="chain9" in="00:00:00.017" out="00:00:00.133"/>
+    <entry producer="chain10" in="00:00:00.017" out="00:00:00.133"/>
+    <entry producer="chain11" in="00:00:00.017" out="00:00:00.133"/>
+    <entry producer="chain12" in="00:00:00.017" out="00:00:00.133"/>
+    <blank length="00:00:01.000"/>
+    <entry producer="chain13" in="00:00:00.967" out="00:00:02.183"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 21.09.20" in="00:00:00.000" out="00:00:03.783">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">9.00891</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
